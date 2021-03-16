@@ -1,12 +1,26 @@
 body{
-  margin: 110px ;
+  font-family: Montserrat;
+  background-color: ffffff;
+  
 }
-h1 {
-
+h1 {  
+  color: #002E6D;
+  position: absolute;
+  height: 118px;
+  left: 5.99%;
+  right: 17.63%;
+  top: calc(50% - 118px/2 - 225px);
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 90px;
+  line-height: 110px;
+  
 }
 
 h2 {
-  color:black;
+  color:#0F2940;
   text-align: center;
   font-family: Montserrat; 
   font-size: 60px; 
@@ -19,50 +33,93 @@ h3 {
   font-size: 26px; 
   font-weight: 700;
 }
-p{
-  color:black;
-  font-family: Calibri; 
-  font-size: 24px; 
-  font-weight: 400;
-}
 
-ul li{
-  color:black;
-  font-family: Calibri; 
-  font-size: 24px; 
-  font-weight: 400;
+h4 {
+  position: relative;
+  font-family: Calibri;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 32px;
 }
-
 
 .header-container {
+  display: flex;    
+  background-image:  url("src/img/shea-rouda-tk4qYI9Mm5A-unsplash.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  min-height: 800px;
+  width: 100 vw;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  }
 
+  .header-text {
+    position: absolute;
+    height: 51px;
+    left: 5.99%;
+    right: 43.47%;
+    top: calc(50% - 51px/2 - 115.5px);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 51px;
+    color: #002E6D;
 }
-
-.header-background-img {
-
-}
-
-.header-text {
-
+.laptop-mockup {
+  position: relative;
+  left: 6.25%;
+  right: 73.26%;
+  top: 57.82%;
+  bottom: 34.76%;
+  width: 295px;
+  height: 177.7px;
+  background-image: url('src/img/laptop-mockup.png');
 }
 
 .body-text {
-
+  color:black;
+  font-family: Calibri; 
+  font-size: 24px; 
+  font-weight: 400;
 }
 
-.logo {
-
+.body-section{
+  padding:0px 110px;
 }
 
-.logo-item {
-
+.main-footer {
+  background: #002E6D;
+  position: absolute;
+  width: 100%;
 }
 
-.main-footer{
 
-}
-
-.footer-nav {
-
-}
 .inline-list {
+  color: #FFFFFF;
+  font-family: Calibri;
+  font-style: normal;
+  font-weight: normal;
+  font-size:24px;
+  line-height: 29px;
+  list-style-type: none;
+  padding: 50px 0px 20px 20px;
+  margin:0px;
+}
+
+.footer-li{
+  
+  float:left;
+  padding: 15px;
+}
+
+#hfla-logo {
+  float: right;
+  padding: 0px 30px 10px;
+}
