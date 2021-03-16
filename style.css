@@ -1,14 +1,36 @@
+body{
+  margin: 110px ;
+}
 h1 {
 
 }
 
 h2 {
   color:black;
-  text-align: center; 
+  text-align: center;
+  font-family: Montserrat; 
+  font-size: 60px; 
+  font-weight: 700;
 }
 
-h4 {
+h3 {
+  color:black;
+  font-family: Calibri; 
+  font-size: 26px; 
+  font-weight: 700;
+}
+p{
+  color:black;
+  font-family: Calibri; 
+  font-size: 24px; 
+  font-weight: 400;
+}
 
+ul li{
+  color:black;
+  font-family: Calibri; 
+  font-size: 24px; 
+  font-weight: 400;
 }
 
 
